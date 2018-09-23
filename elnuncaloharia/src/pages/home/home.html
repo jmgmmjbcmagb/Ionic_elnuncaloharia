@@ -1,14 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Hola caracola 2
+      El nunca lo haria
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-item>
+    <ion-label floating>Username</ion-label>
+    <ion-input [(ngModel)]="telefono" type="text"></ion-input>
+    <ion-label>{{telefono | telefonoWhatsapp}}</ion-label>
+  </ion-item>
+  <button ion-button (click)="telefonoEs()"></button>
 </ion-content>
