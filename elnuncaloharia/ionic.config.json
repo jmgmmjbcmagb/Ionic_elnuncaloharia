@@ -1,0 +1,7 @@
+{
+  "name": "elnuncaloharia",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
